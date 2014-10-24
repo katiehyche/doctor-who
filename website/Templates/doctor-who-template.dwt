@@ -7,6 +7,10 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
+<!-- TemplateParam name="the-doctors-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="the-companions-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="the-villains-submenu" type="boolean" value="false" -->
+<!-- TemplateParam name="show-history-submenu" type="boolean" value="false" -->
 </head>
 
 <body>
@@ -20,35 +24,56 @@
 </table>
 <table>
   <tr>
-    <td><ul>
-      <li>The First Doctor</li>
-      <li>The Second Doctor</li>
-      <li>The Third Doctor</li>
-      <li>The Fourth Doctor</li>
-      <li>The Fifth Doctor</li>
-      <li>The Sixth Doctor</li>
-      <li>The Seventh Doctor</li>
-      <li>The Eighth Doctor</li>
-      <li>The War Doctor</li>
-      <li>The Ninth Doctor</li>
-      <li>The Tenth Doctor</li>
-      <li>The Eleventh Doctor</li>
-      <li>The Twelfth Doctor      </li>
-    </ul>
+    <td><!-- TemplateBeginIf cond="_document['the-doctors-submenu']" -->
       <ul>
-        <li>Clara Oswald</li>
-        <li>River Song</li>
-        <li>Rory Williams</li>
-        <li>Amy Pond</li>
-        <li>Sarah Jane Smith</li>
-        <li>Jack Harkness</li>
-        <li>Martha Jones</li>
-        <li>Donna Noble</li>
-        <li>Mickey Smith</li>
-        <li>Rose Tyler</li>
-        <li>The Master</li>
-        <li>The Daleks</li>
-    </ul></td>
+        <li><a href="../the-doctors/characters/first-doctor.html">The First Doctor</a></li>
+        <li>The Second Doctor</li>
+        <li>The Third Doctor</li>
+        <li>The Fourth Doctor</li>
+        <li>The Fifth Doctor</li>
+        <li>The Sixth Doctor</li>
+        <li>The Seventh Doctor</li>
+        <li>The Eighth Doctor</li>
+        <li>The War Doctor</li>
+        <li>The Ninth Doctor</li>
+        <li>The Tenth Doctor</li>
+        <li>The Eleventh Doctor</li>
+        <li>The Twelfth Doctor </li>
+      </ul>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['the-companions-submenu']" -->
+    <ul>
+      <li>Clara Oswald</li>
+      <li>River Song</li>
+      <li>Rory Williams</li>
+      <li>Amy Pond</li>
+      <li>Sarah Jane Smith</li>
+      <li>Jack Harkness</li>
+      <li>Martha Jones</li>
+      <li>Donna Noble</li>
+      <li>Mickey Smith</li>
+      <li>Rose Tyler </li>
+    </ul>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['the-villains-submenu']" -->
+    <ul>
+      <li>The Master</li>
+      <li>The Daleks</li>
+      <li>Cyberman</li>
+      <li>The Silence</li>
+      <li>Sontarans</li>
+      <li>The Weeping Angles</li>
+      <li>The Great Intelligence</li>
+      <li>Zygon</li>
+      <li>Slitheen</li>
+      <li>Empress of Racnoss </li>
+    </ul>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['show-history-submenu']" -->
+    <ul>
+      <li>Origins</li>
+      <li>The Original Series</li>
+      <li>1996 Film</li>
+      <li>2005 Revival</li>
+    </ul>
+    <!-- TemplateEndIf --></td>
     <td><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
