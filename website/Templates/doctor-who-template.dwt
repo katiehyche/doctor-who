@@ -11,10 +11,11 @@
 <!-- TemplateParam name="the-companions-submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="the-villains-submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="show-history-submenu" type="boolean" value="false" -->
+<link href="../styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<table>
+<table class="general-width">
   <tr>
     <td>[Banner]</td>
   </tr>
@@ -22,9 +23,9 @@
     <td><a href="../index.html">Home</a> | <a href="../the-doctors/index.html">The Doctors</a> | <a href="../the-companions/index.html">The Companions</a> | <a href="../the-villains/index.html">The Villains</a> | <a href="../show-history/index.html">Show History</a></td>
   </tr>
 </table>
-<table>
+<table class="general-width">
   <tr>
-    <td><!-- TemplateBeginIf cond="_document['the-doctors-submenu']" -->
+    <td class="secondary-nav"><!-- TemplateBeginIf cond="_document['the-doctors-submenu']" -->
       <ul>
         <li><a href="../the-doctors/characters/first-doctor.html">The First Doctor</a></li>
         <li><a href="../the-doctors/characters/second-doctor.html">The Second Doctor</a></li>
@@ -38,10 +39,8 @@
         <li><a href="../the-doctors/characters/ninth-doctor.html">The Ninth Doctor</a></li>
         <li><a href="../the-doctors/characters/tenth-doctor.html">The Tenth Doctor</a></li>
         <li><a href="../the-doctors/characters/eleventh-doctor.html">The Eleventh Doctor</a></li>
-        <li><a href="../the-doctors/characters/twelfth-doctor.html">The Twelfth Doctor</a></li>
-      </ul>
-    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['the-companions-submenu']" -->
-    <ul>
+        <li><a href="../the-doctors/characters/twelfth-doctor.html">The Twelfth Doctor</a></li></ul><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['the-companions-submenu']" -->
+        <ul>
       <li><a href="../the-companions/characters/clara-oswald.html">Clara Oswald</a></li>
       <li><a href="../the-companions/characters/river-song.html">River Song</a></li>
       <li><a href="../the-companions/characters/rory-williams.html">Rory Williams</a></li>
@@ -77,21 +76,21 @@
     <td><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
-<table>
+<table class="general-width">
   <tr>
-    <td><p>Brendan Davey</p>
+    <td class="class-names"><p>Brendan Davey</p>
     <p>Monica DuCong'e</p>
     <p>Erik Eyler</p>
     <p>Kayleen Garcia</p>
     <p>Katie Hyche</p>
     <p>Ryan Moeller</p></td>
-    <td><p>Christine O'Brien</p>
+    <td class="class-names"><p>Christine O'Brien</p>
     <p>Alex Recinos</p>
     <p>Julia Schwartz</p>
     <p>Madeleine Schwartz</p>
     <p>Ann Marie Skjold</p>
     <p>Ashly Wilkins</p></td>
-    <td>[Reference Links]</td>
+    <td class="reference-links">[Reference Links]</td>
   </tr>
 </table>
 </body>
