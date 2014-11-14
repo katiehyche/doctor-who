@@ -12,12 +12,14 @@
 <!-- TemplateParam name="the-villains-submenu" type="boolean" value="false" -->
 <!-- TemplateParam name="show-history-submenu" type="boolean" value="false" -->
 <link href="../styles.css" rel="stylesheet" type="text/css">
+<!-- TemplateParam name="doctor-who-home" type="boolean" value="false" -->
+<!-- TemplateParam name="first-doctor" type="boolean" value="false" -->
 </head>
 
 <body>
 <table class="general-width">
   <tr>
-    <td><img src="../banners/the-doctors.jpg" width="1000" height="200" alt="the doctors website banner"></td>
+    <td><img src="../images/banners/the-doctors.jpg" width="1000" height="200" alt="the doctors website banner"></td>
   </tr>
   <tr>
     <td><a href="../index.html">Home</a> | <a href="../the-doctors/index.html">The Doctors</a> | <a href="../the-companions/index.html">The Companions</a> | <a href="../the-villains/index.html">The Villains</a> | <a href="../show-history/index.html">Show History</a></td>
@@ -72,7 +74,8 @@
       <li><a href="../show-history/1996-film.html">1996 Film</a></li>
       <li><a href="../show-history/2005-revival.html">2005 Revival</a></li>
     </ul>
-    <!-- TemplateEndIf --></td>
+    <!-- TemplateEndIf -->
+    <p><!-- TemplateBeginIf cond="_document['doctor-who-home']" --><img src="../images/homepage/doctor_who_series_8_peter_capaldi_poster_by_jackardy-d74f96d-1.jpg" width="300" height="425" alt="homepage"><!-- TemplateEndIf --></p></td>
     <td><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>

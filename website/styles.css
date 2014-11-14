@@ -33,3 +33,23 @@ table {
 	background-color: #FFF;
 	border-collapse:collapse;
 }
+.imagerap {
+	float: left;
+	margin-right: 100px;
+	margin-bottom: 50px;
+	background-color: #999;
+	padding: 15px;
+	margin-top: 10px;
+	border-top-width: 10px;
+	border-right-width: 10px;
+	border-bottom-width: 10px;
+	border-left-width: 10px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C33;
+	border-right-color: #903030;
+	border-bottom-color: #7F1F1F;
+	border-left-color: #C33;
+}
