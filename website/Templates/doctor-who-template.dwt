@@ -30,7 +30,7 @@
 <!-- TemplateBeginIf cond="_document['villains-banner']" --><img src="../images/banners/villains-banner.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['companions-banner']" --><img src="../images/banners/companions-banner.jpg" width="1000" height="200"><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['show-history-banner']" --><img src="../images/banners/show-history-banner.jpg" width="1000" height="200"><!-- TemplateEndIf -->
 <table class="general-width">
   <tr>
-    <td><a href="../index.html">Home</a> | <a href="../the-doctors/index.html">The Doctors</a> | <a href="../the-companions/index.html">The Companions</a> | <a href="../the-villains/index.html">The Villains</a> | <a href="../show-history/index.html">Show History</a></td>
+    <td class="primarynav"><a href="../index.html">Home</a>  <a href="../the-doctors/index.html">The Doctors</a>  <a href="../the-companions/index.html">The Companions</a>  <a href="../the-villains/index.html">The Villains</a>  <a href="../show-history/index.html">Show History</a></td>
   </tr>
 </table>
 <table class="general-width">
@@ -83,25 +83,25 @@
       <li><a href="../show-history/2005-revival.html">2005 Revival</a></li>
     </ul>
     <!-- TemplateEndIf -->
-    <p><!-- TemplateBeginIf cond="_document['doctor-who-home']" --><img src="../images/homepage/doctor_who_series_8_peter_capaldi_poster_by_jackardy-d74f96d-1.jpg" width="300" height="425" alt="homepage"><!-- TemplateEndIf --></p></td>
-    <td><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
+    <p><!-- TemplateBeginIf cond="_document['doctor-who-home']" --><img src="../images/me.jpg" width="300" height="300" alt="me"><img src="../images/homepage/doctor_who_series_8_peter_capaldi_poster_by_jackardy-d74f96d-1.jpg" width="300" height="425" alt="homepage"><!-- TemplateEndIf --></p></td>
+    <td class="contentstuff"><!-- TemplateBeginEditable name="Page Content" -->[Page Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
 <table class="general-width">
   <tr>
-    <td class="class-names"><p>Brendan Davey</p>
-    <p>Monica DuCong'e</p>
-    <p>Erik Eyler</p>
-    <p>Kayleen Garcia</p>
-    <p>Katie Hyche</p>
-    <p>Ryan Moeller</p></td>
-    <td class="class-names"><p>Christine O'Brien</p>
-    <p>Alex Recinos</p>
-    <p>Julia Schwartz</p>
-    <p>Madeleine Schwartz</p>
+    <td class="class-names"><p><a href="http://149.61.52.23">Brendan Davey</a></p>
+    <p><a href="http://149.61.52.11">Monica DuCong'e</a></p>
+    <p><a href="http://149.61.52.21">Erik Eyler</a></p>
+    <p><a href="http://149.61.52.18">Kayleen Garcia</a></p>
+    <p><strong>Katie Hyche</strong></p>
+    <p><a href="http://149.61.52.15">Ryan Moeller</a></p></td>
+    <td class="class-names"><p><a href="http://149.61.52.16">Christine O'Brien</a></p>
+    <p><a href="http://149.61.52.17">Alex Recinos</a></p>
+    <p><a href="http://149.61.52.22">Julia Schwartz</a></p>
+    <p><a href="http://149.61.43.161">Madeleine Schwartz</a></p>
     <p>Ann Marie Skjold</p>
-    <p>Ashly Wilkins</p></td>
-    <td class="reference-links">[Reference Links]</td>
+    <p><a href="http://149.61.52.13">Ashly Wilkins</a></p></td>
+    <td class="reference-links">Content derived from the <a href="http://en.wikipedia.org/wiki/Doctor_Who">Doctor Who Wikipedia Page</a>.</td>
   </tr>
 </table>
 </body>
